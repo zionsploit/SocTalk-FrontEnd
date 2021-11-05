@@ -1,0 +1,151 @@
+.BaseLogin {
+    padding: 150px 0 0 25em;
+}
+
+.LoginDiv {
+    display  : flex;
+    flex-flow: row nowrap;
+}
+
+.LoginContainer {
+    padding: 0 10em 0 0;
+}
+
+.SigninLabel {
+    font-size     : 50px;
+    text-transform: capitalize;
+    font-weight   : 800;
+    letter-spacing: 2.5px;
+    color         : #2e2e2e;
+}
+
+.iconButton {
+    width: 100px;
+}
+
+.iconBorder {
+    border-style : solid;
+    border-width : 2px;
+    border-color : white;
+    border-radius: 100%;
+    transition   : 0.5s;
+}
+
+.iconBorder:hover {
+    border-style : solid;
+    border-width : 2px;
+    border-color : #7a7a7a;
+    border-radius: 100%;
+    transition   : 0.3s;
+}
+
+.subText {
+    font-size     : 18px;
+    color         : #919191;
+    letter-spacing: 1.2px;
+    font-weight   : bold;
+}
+
+.inputFormLogin {
+    display         : flex;
+    flex-flow       : row nowrap;
+    align-items     : center;
+    background-color: #ebebeb;
+    border-radius   : 20px;
+}
+
+.iconFormArea {
+    padding: 15px 20px 15px 25px;
+}
+
+.inputFormControlLogin {
+    width           : 25em;
+    padding-right   : 2em;
+    height          : 2.5em;
+    background-color: #ebebeb;
+    border-style    : none;
+    border-width    : 0ch;
+    outline         : none;
+    font-size       : 1em;
+    font-weight     : 800;
+    letter-spacing  : 2px;
+}
+
+.forgotPass {
+    font-size     : 15px;
+    text-transform: uppercase;
+    font-weight   : 800;
+    letter-spacing: 1px;
+    color         : #2a6f97;
+    transition    : 0.2s;
+}
+
+.forgotPass:hover {
+    font-size     : 15px;
+    text-transform: uppercase;
+    font-weight   : 800;
+    letter-spacing: 1px;
+    color         : #012a4a;
+    transition    : 0.2s;
+}
+
+.submitButton {
+    font-size       : 1.2em;
+    font-weight     : 800;
+    letter-spacing  : 2px;
+    text-transform  : uppercase;
+    border-radius   : 20px;
+    border-width    : 0ch;
+    border-style    : none;
+    background-color: #ccdbfd;
+    color           : #333333;
+    padding         : 10px 40px;
+    transition      : 0.2s;
+}
+
+.submitButton:hover {
+    font-size       : 1.2em;
+    font-weight     : 800;
+    letter-spacing  : 2px;
+    text-transform  : uppercase;
+    border-radius   : 20px;
+    border-width    : 0ch;
+    border-style    : none;
+    color           : #030303;
+    background-color: #abc4ff;
+    padding         : 10px 40px;
+    transition      : 0.2s;
+}
+
+.joinUsLable {
+    font-size     : 2.5em;
+    font-weight   : bolder;
+    letter-spacing: 2px;
+    color         : #2b2b2b;
+}
+
+.registerBtn {
+    padding         : 10px 8em;
+    border-radius   : 10px;
+    border-width    : 0ch;
+    border-style    : none;
+    font-weight     : 900;
+    letter-spacing  : 2px;
+    font-size       : 1.2em;
+    color           : #262626;
+    background-color: #95d5b2;
+    transition      : 0.2s;
+}
+
+.registerBtn:hover {
+    padding         : 10px 8em;
+    border-radius   : 10px;
+    border-width    : 0ch;
+    border-style    : none;
+    font-weight     : 900;
+    letter-spacing  : 2px;
+    font-size       : 1.2em;
+    color           : #262626;
+    background-color: #40916c;
+    transition      : 0.2s;
+}

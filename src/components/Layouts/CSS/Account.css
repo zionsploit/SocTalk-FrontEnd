@@ -1,0 +1,132 @@
+.BaseStyle {
+    display  : flex;
+    flex-flow: row nowrap;
+}
+
+.AccountDiv {
+    width             : 120vh;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #dbdbdb;
+    margin-left       : 15em;
+    margin-top        : 3.5em;
+    overflow-x        : hidden;
+}
+
+.bgprofile {
+    width          : 105%;
+    height         : 350px;
+    object-fit     : cover;
+    object-position: 50% 50%;
+    opacity        : 0.8;
+}
+
+.profile {
+    border-radius: 50%;
+    position     : relative;
+    width        : 10em;
+    bottom       : 30px;
+    left         : 1em;
+}
+
+.profileInfo {
+    display    : flex;
+    flex-flow  : row nowrap;
+    align-items: center;
+    position   : relative;
+    bottom     : 60px;
+}
+
+.btnCover {
+    background-color: rgba(37, 36, 34, 0.4);
+    border-width    : 1;
+    border-style    : solid;
+    border-color    : #495057;
+    border-radius   : 20px;
+    padding         : .5em 1em;
+    color           : #495057;
+    transition      : 0.1s;
+}
+
+.btnCover:hover {
+    background-color: rgba(37, 36, 34, 0.2);
+    border-width    : 1;
+    border-style    : solid;
+    border-color    : #e9ecef;
+    border-radius   : 20px;
+    padding         : .5em 1em;
+    color           : #e9ecef;
+    transition      : 0.1s;
+}
+
+.btnProfile {
+    position        : relative;
+    bottom          : 65px;
+    left            : 55px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-width    : 0;
+    border-style    : none;
+    border-color    : 0;
+    border-radius   : 50%;
+    padding         : 10px 15px;
+    color           : #fffcf2;
+    transition      : 0.1s;
+    margin-bottom   : 20em;
+    margin-left     : 1em;
+}
+
+.btnProfile:hover {
+    background-color: #252422;
+    border-width    : 0;
+    border-style    : none;
+    border-color    : 0;
+    border-radius   : 50px;
+    color           : #fffcf2;
+    transition      : 0.1s;
+    margin-bottom   : 20em;
+    margin-left     : 1em;
+}
+
+.btnUpdateInfo {
+    border-color : #7b2cbf;
+    border-width : 2px;
+    border-style : solid;
+    color        : #7b2cbf;
+    padding      : 10px 20px;
+    border-radius: 10px;
+    transition   : 0.2s;
+}
+
+.btnUpdateInfo:hover {
+    border-color    : #7b2cbf;
+    border-width    : 2px;
+    border-style    : solid;
+    background-color: #3c096c;
+    color           : #fffcf2;
+    padding         : 10px 20px;
+    border-radius   : 10px;
+    transition      : 0.2s;
+}
+
+.semiBtn {
+    text-decoration-line: none;
+    padding             : 1em 2em;
+    color               : #2b2d42;
+    font-size           : 1.2em;
+    font-weight         : bold;
+    letter-spacing      : 2px;
+    transition          : 0.1s;
+    border-radius       : 20px;
+}
+
+.semiBtn:hover {
+    text-decoration-line: none;
+    padding             : 1em 2em;
+    background-color    : #ced4da;
+    border-radius       : 20px;
+    color               : #2b2d42;
+    font-size           : 1.2em;
+    font-weight         : bold;
+    letter-spacing      : 2px;
+    transition          : 0.1s;
+}

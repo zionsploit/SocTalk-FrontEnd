@@ -1,0 +1,109 @@
+.accountInfoContiner {
+    display  : flex;
+    flex-flow: row nowrap;
+}
+
+.accountInfoLeftContainer {
+    width : 70vh;
+    height: 100vh;
+}
+
+.accountInfoContainer {
+    height: 100vh;
+}
+
+.accountInfoContainer_2nd {
+    position                  : absolute;
+    width                     : 95vh;
+    height                    : 100vh;
+    background                : linear-gradient(to bottom, #5778ff, #000dfa);
+    border-bottom-right-radius: 100% 100%;
+}
+
+.accountImage {
+    position: relative;
+    width   : 100vh;
+    top     : 15vh;
+}
+
+.accountInfoRightContaiener {
+    width  : fit-content;
+    z-index: 999;
+}
+
+.accountHeaderContainer {
+    display  : flex;
+    flex-flow: column nowrap;
+}
+
+.accountHead {
+    font-size     : 4em;
+    font-weight   : 800;
+    letter-spacing: 2px;
+    color         : #343a40;
+}
+
+.accountText {
+    font-size     : 1em;
+    font-weight   : 500;
+    letter-spacing: 1px;
+    color         : #4b4c4d;
+}
+
+.accountFormContainer {
+    padding    : 30px;
+    width      : 100vh;
+    margin-left: 15em;
+    margin-top : 15em;
+}
+
+.accountFormName {
+    display        : flex;
+    flex-flow      : row;
+    width          : 50em;
+    justify-content: space-between;
+    margin-top     : 15px;
+}
+
+.accountInfoInputContainer {
+    border       : 1px solid #ced4da;
+    border-radius: 5px;
+    padding      : 10px 15px;
+    width        : fit-content;
+    height       : 50px;
+}
+
+.accountInfoInput {
+    padding         : 5px;
+    width           : 22em;
+    background-color: rgba(0, 0, 0, 0);
+    border          : none;
+    outline         : none;
+    color           : #212529;
+    font-weight     : 700;
+    letter-spacing  : 1.5px;
+}
+
+.accountInfobuttonContainer {
+    width     : 50em;
+    margin-top: 10px;
+}
+
+.accountInfoButton {
+    float           : right;
+    background-color: #1c6ded;
+    color           : #f8f9fa;
+    border          : none;
+    border-radius   : 5px;
+    width           : 10em;
+    padding         : 10px 15px;
+    font-size       : 15px;
+    font-weight     : 500;
+    letter-spacing  : 1px;
+    transition      : all 0.5s ease;
+}
+
+.accountInfoButton:hover {
+    background-color: #1262e0;
+    transition      : all 0.5s ease;
+}
